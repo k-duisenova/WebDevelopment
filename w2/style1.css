@@ -1,0 +1,160 @@
+.header {
+    height: 95px;
+    width: 100%;
+    background-color: #3B5998;
+}
+
+.navbar {
+    margin: 0 auto;
+    width: 980px;
+    height: 59px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body {
+    margin: 0px;
+    background: #ECF0F4;
+    overflow: auto;
+}
+#logo-image {
+    height: 35px;
+    margin-top: 29px;
+}
+#email-row  {
+    color: white;
+    font-weight: inherit;
+    font-size: 13px;
+    width: 260px;
+}
+#pass-row {
+    color: white;
+    font-weight: inherit;
+    font-size: 13px;
+}
+#login-table {
+    float: right;
+    margin-top: 12px;
+}
+.row {
+    width: 164px;
+}
+.input {
+    margin: 0;
+    border: 1px solid #000053;
+    height: 15px;
+    width: 146px;
+}
+#forgot-account {
+    color: #DFE3EE;
+    font-size: 12px;
+}
+.forgot {
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+.login-button {
+    background: #4267B2;
+    height: 24px;
+    border-color: #29477D;
+    border-width: 1px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 980px;
+}
+#left {
+    float: left;
+    width: 565px;
+}
+#right {
+    float: right;
+    width: 400px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
+.font-huge {
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: 600;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    margin-bottom: 0;
+}
+.box {
+    display: inline-block;
+    width: 420px;
+    margin-top: 8px;
+}
+.inputbody {
+    display: inline-block;
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #BDC7D8;
+    border-radius: 5px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.input1 {
+    width: 175px;
+}
+.input2 {
+    width: 377px;
+}
+.b-day {
+    font-size: 17px;
+    color: #141823;
+    margin-bottom: 5px;
+}
+.selectbody {
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+    font-size: 13px;
+    border: 1px solid #BDC7D8;
+    border-radius: 5px;
+    color: #141823;
+}
+.why {
+    font-size: 13px;
+    color: #3B5998;
+    width: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+.agree {
+    font-size: 11px;
+    color: #777;
+    width: 330px;
+    margin: 11px 0 11px;
+}
+.link {
+    color: #3B5998;
+    display: inline-block;
+}
+.button {
+    color: white;
+    background: #5F9A4C;
+    font-size: 19px;
+    font-weight: 700;
+    border: 1px solid #3B6E22;
+    width: 180px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    border-radius: 5px;
+}
+.footer {
+    width: 100%;
+    background: white;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    float: left;
+    left: 300px;
+    font-weight: bold;
+    color: #90949C;
+    font-size: 12px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}

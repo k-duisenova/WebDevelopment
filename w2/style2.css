@@ -1,0 +1,115 @@
+.right-wrapper {
+    margin-top: 50px;
+    margin-right: 290px;
+    background: #FAFAFA;
+    width: 350px;
+    text-align: center;
+    height: 800px;
+    float: right;
+}
+.right-first {
+    width: 350px;
+    height: 550px;
+    background: #FFF;
+    text-align: center;
+}
+.right-second {
+    width: 350px;
+    height: 52px;
+    padding-top: 15px;
+    background: #fff;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #262626;
+    text-align: center;
+}
+
+.right-third {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.border {
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    display: inline-table;
+}
+.left-side {
+    float: left;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+body {
+    margin: 0px;
+    background: #FAFAFA;
+    font-family: sans-serif;
+}
+.register {
+    color: #999;
+    font-weight: bold;
+    margin: 0 40px 10px;
+    font-size: 17px;
+    text-align: center;
+}
+#insta-logo {
+    margin-top: 20px;
+}
+.box {
+    font-size: 12px;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    opacity: 0.95;
+    padding: 9px 0 7px 8px;
+    width: 255px;
+    height: 20px;
+    background: #FAFAFA;
+    margin-top: 8px;
+}
+.text {
+    color: #999;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 19px;
+
+}
+.right-first a {
+    font-weight: bold;
+    color: #999;
+    text-decoration: none;
+}
+.button {
+    margin-top: 14px;
+    width: 267px;
+    height: 35px;
+    background: #3897F0;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.facebook-link {
+    margin-top: 10px;
+}
+footer {
+    padding: 90px 0 10px 60px;
+}
+footer .container {
+    justify-content: stretch;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 130px;
+    text-align: left;
+}
+.copyright {
+    color: #999999;
+    margin-bottom: 30px;
+}
+
+.footer-nav a {
+    color: #152238;
+    text-decoration: none;
+}
