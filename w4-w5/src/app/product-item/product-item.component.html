@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="column">
+    <h3 class="heading">
+      {{ product.product.name }}
+    </h3>
+    <p class="heading">
+      {{ product.product.description }}
+    </p>
+    <img id="main" src={{product.product.img_src}} width="400px">
+    <h4 class="heading"> Цена: {{ product.product.price }} $ <span style="color: steelblue;"> Рейтинг: {{ product.product.rating }} </span></h4>
+
+  </div>
+  <div class="column">
+    <button (click)="Share()"> В магазин </button>
+  </div>
+</div>

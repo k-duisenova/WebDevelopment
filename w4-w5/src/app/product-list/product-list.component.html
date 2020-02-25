@@ -1,0 +1,19 @@
+<h2 style="text-align:center; margin: 40px 0px;">Продукты</h2>
+<div class="products">
+  <div class="product-item maxScale"  *ngFor="let product of products">
+
+    <h3>
+      <a routerLink="/category/{{product.categoryId}}/products" [state]="{ product:product }" [title]="product.name + ' подробнее'" >
+        {{ product.name }}
+      </a>
+    </h3>
+    <img src={{product.img_src}} width="270px">
+    <br>
+    <h4> Цена: {{ product.price }} $ <span style="color: red;float:right;font-size: 10px;"> <br> Рейтинг: {{ product.rating }} </span></h4>
+    <div style="display: flex; justify-content: center">
+      <button (click)="share(product)">
+        Поделиться
+      </button>
+    </div>
+  </div>
+</div>
