@@ -1,0 +1,94 @@
+.navbar {
+    height: 70px;
+    background-color: black;
+    color: darkgrey;
+    margin-top: 0;
+    width: 100%;
+}
+
+.header {
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight: lighter;
+}
+.wrapper h1 {
+    padding: 25px 0 10px 290px;
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight: lighter;
+}
+.addToDo {
+    padding: 0px 0 10px 360px;
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight: lighter;
+}
+#new_task {
+    width: 550px;
+    height: 25px;
+    padding: 2px 12px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+
+}
+.add {
+    margin-left: 25px;
+    height: 31px;
+    width: 50px;
+    border-radius: 3px;
+    border: 1px solid darkblue;
+    background-color: #357ec7;
+    color: white;
+    font-family: Helvetica, sans-serif, Arial;
+}
+.content {
+    padding: 25px 0 10px 290px;
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight: lighter;
+
+}
+ul {
+    width: 720px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+li {
+    width: 720px;
+    list-style-type: none;
+    height: 40px;
+    padding: 25px 0px 5px;
+    font-size: 15px;
+    /*border-bottom: 1px solid lightgray;*/
+}
+li .buttons {
+    min-width: 100px;
+    float: right;
+    display: inline;
+}
+li .buttons button {
+    background: none;
+    border: none;
+    min-width: 40px;
+    height: 10px;
+}
+/* make the remove icon red*/
+.remove svg path {
+    fill: red;
+}
+/* make the remove icon a different color on hover */
+.remove:hover svg path {
+    fill: darkred;
+}
+svg {
+    max-width: 15px;
+}
+#check {
+    float: left;
+    display: inline;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.complete {
+    text-decoration: line-through;
+    background-color: yellow;
+}
